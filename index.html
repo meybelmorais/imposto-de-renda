@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="shortcut icon" href="./images/logo.jpg" type="image/x-icon">
+    <title>Cálculo Imposto de Renda</title>
+</head>
+<body>
+    <div class="logo"><img src="./images/logo.jpg" alt="Logo"></div>
+    <div class="input-container">
+        <input id="nome" placeholder="Nome" type="text">
+    </div>
+    <div class="input-container">
+        <input id="salario" placeholder="Salário" type="number">
+    </div>
+    <div class="input-container">
+        <input id="calcular" type="submit">
+    </div>
+    <table>
+        <tbody id="resultado">
+            <tr><td>Nome</td><td>Salario Bruto</td><td>% INSS</td><td>R$ INSS</td><td>% IRPF</td><td>R$ IRPF</td><td>Valor Líquido</td></tr>
+        </tbody>
+    </table>
+
+    <script src="./scripts/script.js"></script>
+</body>
+</html>

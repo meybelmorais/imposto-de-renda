@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    width: 70vw;
+}
+
+.input-container{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    margin-bottom: 1%;
+    padding-left: 1%;
+    width: 60vw;
+    height: 10vw;
+    border-radius: 10vw;
+    border-style: solid;
+    border-color: grey;
+}
+
+input[type="submit"]{
+    padding-left: 0%;
+    width: 60vw;
+    height: 10vw;
+    border-radius: 10vw;
+    border-style: solid;
+    background-color: green;
+    color: white;
+    font-size: 5vw;
+}
+
+table{
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+    margin-top: 3%;
+    width: 100vw;
+}
+
+table th{
+    border: 1px solid grey;
+    text-align: left;
+    background-color: green;
+    color: white;
+    padding: 4px 30px 4px 8px;
+}
+table td{
+    border: 1px solid grey;
+    padding: 4px 8px;
+}
+table tr:nth-child(odd) td{
+    background-color: grey;
+}
+
+@media only screen and (min-width: 768px){
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo img{
+        width: 40vw;
+    }
+
+    .input-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    input{
+        margin-bottom: 1%;
+        padding-left: 1%;
+        width: 20vw;
+        height: 4vw;
+        border-radius: 10vw;
+        border-style: solid;
+        border-color: grey;
+    }
+
+    input[type="submit"]{
+        padding-left: 0%;
+        width: 20vw;
+        height: 4vw;
+        border-radius: 10vw;
+        border-style: solid;
+        background-color: green;
+        color: white;
+        font-size: 1.5vw;
+    }
+
+    table{
+        display: flex;
+        justify-content: center;
+        border-collapse: collapse;
+        margin-top: 3%;
+        width: 100vw;
+    }
+
+    table th{
+        border: 1px solid grey;
+        text-align: left;
+        background-color: green;
+        color: white;
+        padding: 4px 30px 4px 8px;
+    }
+    table td{
+        border: 1px solid grey;
+        padding: 4px 8px;
+    }
+    table tr:nth-child(odd) td{
+        background-color: grey;
+    }
+}
